@@ -21,3 +21,36 @@ body{
   box-shadow: 10px 4px 8px 0 rgba(8, 65, 129, 0.2),0 6px 20px 0 rgba(8, 97, 156, 0.19);
   
 }
+#result{
+  height:120px;
+
+}
+#history{
+ text-align: right;
+  height: 20px;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 1px;
+  color: #919191;
+
+}
+#output{
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 30px;
+}
+#keyboard{
+  height:400px;
+
+}
+.operator, .number, .empty{
+  height: 50px;
+  width: 50px;
+  margin: 15px;
+  text-align: center;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
