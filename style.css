@@ -17,7 +17,7 @@ body{
   margin: 0 auto;
   top: 20px;
   position: relative;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 10px 4px 8px 0 rgba(8, 65, 129, 0.2),0 6px 20px 0 rgba(8, 97, 156, 0.19);
   
 }
@@ -48,9 +48,26 @@ body{
   height: 50px;
   width: 50px;
   margin: 15px;
-  text-align: center;
+  float: left;
   border-radius: 50%;
   border-width: 0;
   font-weight: bold;
   font-size: 15px;
+}
+.number, .empty {
+  background-color: rgb(195, 164, 164);
+}
+.number, .operator{
+  cursor: pointer;
+}
+.number:active,  .operator:active{
+font-size: 13px;
+}
+.number:focus, .operator:focus, .empty:focus{
+  outline: 0;
+
+}
+.operator{
+  background-color: rgb(124, 188, 194);
+ 
 }
