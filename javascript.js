@@ -13,4 +13,17 @@ function getOutput()
 function printOutput()
 {
     document.getElementById("output-value").innetText=num;
+    if(output=="")
+    {
+        document.getElementsById("output-value").innetText=num;
+    }
+    else
+    {
+       document.getElementById("output-value").innerText=getFormattedNumber(num);
+    }
+    
+}
+function getFormattedNumber()
+{
+    
 }
